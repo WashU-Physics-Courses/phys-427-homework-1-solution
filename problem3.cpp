@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-template <typename T>
-T next(T phi_n, T phi_nm1) {
+double next(double phi_n, double phi_nm1) {
   return phi_nm1 - phi_n;
 }
 
